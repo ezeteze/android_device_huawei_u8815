@@ -1,5 +1,5 @@
 #
-# system.prop for u8818
+# system.prop for u8815
 #
 rild.libpath=/system/lib/libril-qc-1.so
 rild.libargs=-d /dev/smd0
@@ -15,8 +15,8 @@ persist.rild.nitz_short_ons_1=
 persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
 ro.telephony.default_network=0
-ro.telephony.ril_class=HwQcomRIL
+ro.telephony.ril_class=HuaweiQualcommRIL
 
-ro.confg.hw_appsbootversion=U8818V100R001C17B926_APPSBOOT
-ro.confg.hw_appversion=U8818V100R001C17B926_KERNEL
-ro.confg.hw_appfsversion=U8818V100R001C17B926_SYSIMG
+ro.confg.hw_appsbootversion=U8815V100R001C00B952_APPSBOOT
+ro.confg.hw_appversion=U8815V100R001C00B952_KERNEL
+ro.confg.hw_appfsversion=U8815V100R001C00B952_SYSIMG
